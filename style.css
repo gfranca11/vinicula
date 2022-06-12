@@ -1,0 +1,356 @@
+charset  "utf-8";
+body{
+    
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   overflow-x: hidden;
+   overflow-x:hidden;
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    
+    body{
+
+    overflow-x:hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+     background-color:#000;
+     
+     
+     
+     }
+     .menucp{
+        display: none;
+     }
+    .container{
+        width: 100vw;
+        
+    
+        
+    }
+        .menu{
+        display: flex;
+        flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+        width: 100vw;
+        height: 100px;
+        background-color: #000;
+
+    }
+    .menu h1{
+padding: 10px 10px;
+        color: red;
+        font-size: 30px;
+        text-align: center;
+        background-color: #000;
+    }
+  
+    .desc{
+        margin-top: 90px;
+        display: flex;
+        background-color: #000;
+        width: 100vw;
+        height: 190px;
+    }
+    .desc p{
+        padding: 10px 25px;
+        color: #CCC;
+    }
+    .vinhos{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 100vw;
+        height: 2000px;
+    }
+
+    .av{
+        flex-direction: column;
+        display: flex;
+        width: 100vw;
+        height: 400px;
+        background-color: #000;
+        background-image: url(156e1142-0546-4a2a-a747-0e75a02a5db4.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+    
+    .av p{color: #ddd;
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left:130px ;
+        
+    }
+    .av button {
+        width: 200px;
+        
+        margin-left: 100px;
+        font-size: 20px;
+        background-color: #7EBC43;
+        color: #FFf;
+        border: none;
+        cursor: pointer;
+    }
+    .a{
+        width: 100vw;
+        display: flex;
+      background-color: #000;
+      height: 400px;
+      
+      
+        
+    }
+    .a img{
+        height: 250px
+        ;
+        width: 200px;
+        margin-left: -30px;
+        
+    }
+    .sa{
+        display: block;
+        color: #ddd;
+        text-align: center;
+        margin-left: -70px;
+    }
+   
+    
+   
+   .sa p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .a button {
+    width: 200px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    background-color: #7EBC43;
+    color: #FFf;
+    border: none;
+    cursor: pointer;
+}
+.final{
+    width: 100vw;
+    height: 500px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+.f1{
+    display: block;
+}
+.f1 h1{
+    color: red;
+    text-align: center;
+    padding: 20px;
+
+}
+.f1 input{
+    width: 200px;
+    height: 30px;
+    margin:auto;
+    display: block;
+
+    
+}
+.f1 p{
+    color: #FFf;
+    text-align: center;
+    color: red;
+}
+.f1 select{
+    display: block;
+    margin: auto;
+}
+.f1 button{
+    width: 200px;
+    display: block;
+        
+        margin:auto;
+        font-size: 20px;
+        background-color: #7EBC43;
+        color: #FFf;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+
+@media screen and (min-width: 1001px) {
+    body{
+overflow-x: hidden;
+background-color: #000;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+      
+    }
+    .menucp{
+        display: flex;
+        background-color: #CCC;
+        width: 100vw;
+        height: 90px;
+        ;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+
+        flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+    }
+    nav a{
+        text-decoration: none;
+        padding: 20px;
+        color: #CCC;
+        font-size: 20px;
+
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+
+        background-color: #000;
+        width: 100vw;
+        height: 150px;
+        
+    }
+    .menu h1{
+        margin-top: 100px;
+        color: red;
+text-align: center;
+        
+    }
+    .desc{
+        display: flex;
+        background-color: #000;
+        width: 100vw;
+        height: 200px;
+    }
+    .desc p{
+        color:#CCc;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    
+    }
+    .vinhos{
+        display: flex;
+        flex-direction: row;
+        background-color: #000;
+        width: 100vw;
+        
+    
+    }
+    .a img{
+        width: 250px;
+        margin-top: 70px;
+        justify-content: center;
+    }
+    .a{
+        display: block;
+        margin: auto;
+    }
+    .av{
+        display: none;
+    }
+    .sa{
+        display: block;
+        color: #ddd;
+        text-align: center;
+        margin-left: -70px;
+        margin-bottom: 30px;
+    }
+   
+    
+   
+   .sa p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   }
+   .a button {
+    width: 200px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    background-color:  #7EBC43;
+    color: #FFf;
+    border: none;
+    cursor: pointer;
+}
+.final{
+    display: flex;
+    background-color: aqua;
+}
+.final{
+    width: 100vw;
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.f1{
+    display: block;
+}
+.f1 h1{
+    font-size: 45px;
+    color: red;
+    text-align: center;
+    padding: 20px;
+
+}
+.f1 input{
+    width: 500px;
+    height: 30px;
+    margin:auto;
+    display: block;
+
+    
+}
+.f1 p{
+    color: #FFf;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.f1 select{
+    display: block;
+    margin: auto;
+    width: 500px;
+    font-size: 27px;
+    text-align: center;
+}
+.f1 button{
+    width: 500px;
+    display: block;
+        
+        margin:auto;
+        font-size: 27px;
+        background-color: #7EBC43;
+        color: #FFf;
+        border: none;
+        cursor: pointer;
+border-radius: 7px;
+padding: 10px;
+    }
+}
+}
