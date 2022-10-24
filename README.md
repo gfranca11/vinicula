@@ -1,4 +1,4 @@
-h1 align="center">
+<h1 align="center">
      📰
 VINICULA DOW GEOVANI
 
@@ -13,7 +13,7 @@ VINICULA DOW GEOVANI
  
  📌 Ajustes e melhorias
  
- - [ ] ADICIONAR UM  CARRINHO COM JAVASCIP PARA A COMPRA DOS VINHOS
+ - [ ] ADICIONAR UM  CARRINHO COM JAVASCRIPT PARA A COMPRA DOS VINHOS
  
 
  
